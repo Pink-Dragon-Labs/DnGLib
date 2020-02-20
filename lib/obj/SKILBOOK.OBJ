@@ -2892,3 +2892,22 @@ object skbBroadSwordV of skbBroadSword
 		shopText "Understanding this treatment will make you a grand-master of broadsword combat."
 	end
 end
+
+object skbBroadSwordVI of skbBroadSword
+	properties
+		name "Broadsword: Paragon"
+		level 6
+		value 1000000
+		strength 14
+		special
+	end
+
+	base teach
+		bp 100
+	end
+
+	base described
+		text "Understanding this treatment will make you a paragon of broadsword combat."
+		shopText "Understanding this treatment will make you a paragon of broadsword combat."
+	end
+end

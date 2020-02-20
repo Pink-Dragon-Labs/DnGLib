@@ -549,6 +549,60 @@ object maDenseShield of ObsidianiteLargeShield
 		shopText "This shield will protect you quite well if you are strong enough to wield it."
 	end
 end
+
+
+object TestRoundShield of Shield
+	properties
+		special
+		name "Bronze Shield"
+		view 16500
+		value 200
+		health 140
+
+		# clear rust immunity
+		caffect 11
+
+		# add fire immunity
+		affect 1 2 0 -1
+		armorType 1
+	end
+
+	base carryable
+		weight 10.0
+	end
+
+	base described
+		text "You see a round shield."
+		shopText "This is a simple round bronze shield, slightly more durable than a wooden one."
+	end
+end
+
+object TestLargeShield of LargeShield
+	properties
+		special
+		name "Large Shield"
+		view 16800
+		value 550
+		color 99
+		health 240
+
+		# clear rust immunity
+		caffect 11
+
+		# add fire immunity
+		affect 1 2 0 -1
+		armorType 3
+	end
+
+	base carryable
+		weight 15.0
+	end
+
+	base described
+		text "You see a large steel shield."
+		shopText "This fine shield will last through many combats."
+	end
+end
 #---------------------------#
 #							#
 #							#
