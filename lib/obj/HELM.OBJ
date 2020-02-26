@@ -1071,6 +1071,30 @@ object Hood of Clothing
 	end
 end
 
+object SkullHood of Clothing
+	properties
+		# Hood Skull Version
+		view 17051
+		name "Skull Hood"
+		clutStart 63
+		color -1
+		armorFlat 20
+	end
+
+	base carryable
+		weight 2
+	end
+
+	base wearable
+		areaWorn 0
+	end
+
+	base described
+		text "You see a skull hood."
+		idText "You see a skull hood, perfect for concealing one's identity and for providing shelter from the elements.\n\n"
+		shopText "A skull hood. Not bad. Can you get more of these?"
+	end
+end
 #-------------------- Hood Magical --------------------
 object ShiftHood of Clothing
 	properties

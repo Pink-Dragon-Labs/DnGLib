@@ -3285,3 +3285,82 @@ object BPlateLowBoots of LowBoots
         shopText "A standard pair of  plate low boots."
     end
 end
+
+
+
+object TravelerToolbox
+	properties
+		name "Traveler's Toolbox"
+		view  59250
+        health 200
+
+		# immune to fire
+		affect 1 2 0 -1
+		# immune to cold
+		affect 2 2 0 -1
+		# immune to lightning
+		affect 3 2 0 -1
+		# immune to acid
+		affect 4 2 0 -1
+        # immune to rust
+		affect 11 2 0 -1
+        
+        worthless
+	end
+
+    base shop
+		buyMarkup  25
+		sellMarkup 200
+
+		inventory
+			mana
+			category "Food & Drink" 52133
+				object RatlingMeat
+				object Bread
+				object Veggies
+				object Cheese
+				object WaterBottle
+				object AleJug
+				object WineFlask
+				object Ambrosia
+			end
+            category "Potions" 51583
+				object pHealth
+				object pCurePoison
+				object pSeeInvisibility
+				object pGreaterHealth
+				object pInvulnerability
+				object pShift
+				object pGreaterInvisibility
+			end
+		end
+	end
+
+    base carryable
+		weight 25
+	end
+
+	base described
+		text "A Traveler's Toolbox!\n\nThis helpful toolbox will allow any traveler to buy/sell as if using a shop!\nCareful! This toolbox has a markup on items sold and bought!\n\n"
+	end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

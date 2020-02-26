@@ -1981,30 +1981,31 @@ object maGreavesOfResilience of MythrilPlatePants
 end
 
 object maThurisazCowl of ChainCowl
-        properties
-                special
-                name "Thurisaz Cowl"
-                value 12500
-                health 1000
-                armor 140
-                view 10050
-        end
+    properties
+		special
+        name "Thurisaz Cowl"
+        value 12500
+        health 1000
+        armor 140
+        #view 10050
+		clutStart 63
+    end
 
-        base carryable
-                weight 1.0
-        end
+    base carryable
+        weight 1.0
+    end
 
-        actions
-                # Pos Str (as per aStrength in AMULETS.OBJ)
-                vBePutOn setAffect dobj 39 0 0 -1
-                vBeTakenOff clearAffect dobj 39 0 0
-        end
+    actions
+        # Pos Str (as per aStrength in AMULETS.OBJ)
+        vBePutOn setAffect dobj 39 0 0 -1
+        vBeTakenOff clearAffect dobj 39 0 0
+    end
 
-        base described
-                text "You see a deep red cowl with runes on it."
-                idText "You see one of the few Thurisaz Cowls, it is nearly indestructable and strong with magic."
-                shopText "This highly magical cowl is very strong and makes you feel stronger as well."
-        end
+    base described
+        text "You see a deep red cowl with runes on it."
+        idText "You see one of the few Thurisaz Cowls, it is nearly indestructable and strong with magic."
+        shopText "This highly magical cowl is very strong and makes you feel stronger as well."
+    end
 end
 
 
@@ -2060,6 +2061,20 @@ object AnewShop of Shop
 		inventory
 			mana
 			category "New Stuffs" 94012
+				object TravelerToolbox
+				category "Skills/Spells" 84500
+					object skbSorceryVI
+					object skbThaumaturgyVI
+					object skbMysticismVI
+					object skbElementalismVI
+					object skbNecromancyVI
+					object skbBroadSwordVI
+					object spbSummonMist
+					object spbImpInvulnerability
+					object spbEnlightenment
+					object spbVitality
+					object spbDamnation
+				end
 				category "Levels 1-25" 94003
 					category "Cloth" 98988
 						object TatteredClothHood

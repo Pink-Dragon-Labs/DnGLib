@@ -186,6 +186,8 @@ object mwWrath of TwoHandSword
 		health 800
 		color 93
 		level 200
+		wholesale
+		strength 15
 	end
 
 	base carryable
@@ -202,6 +204,14 @@ object mwWrath of TwoHandSword
 		vBeTakenOff clearAffect dobj 56 0 0
 	end
 
+	components
+		AdmantiumTwoHandSword
+		AdmantiumTwoHandSword
+		MagicBar
+		MagicBar
+		MagicBar
+	end
+
 	base described
 		text "You see a huge two-handed sword made of some strange material."
 		idText "This is the wrath, the most destructive of two-handed swords.  Level Required: 200"
@@ -209,6 +219,88 @@ object mwWrath of TwoHandSword
 	end
 end
 
+object mwWrathFIRE of TwoHandSword
+	properties
+		special
+		name "The Wrath +Fire"
+		value 35000
+		health 800
+		color 93
+		level 200
+		wholesale
+		strength 15
+		affect 1 0 0 -1		# Fire Damage
+	end
+
+	base carryable
+		weight 30.0
+	end
+
+	base weapon
+		minDamage 75
+		maxDamage 135
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1		# +1 Attack
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	components
+		mwWrath
+		MagicBar
+		MagicBar
+		FireMagicBar
+		FireMagicBar
+	end
+
+	base described
+		text "You see a huge two-handed sword made of some strange material."
+		idText "This is the wrath, the most destructive of two-handed swords.  Level Required: 200"
+		shopText "Here is the renowned Wrath, the most dangerous of two-handed swords."
+	end
+end
+
+object mwSabre of TwoHandSword
+	properties
+		view 15020
+		name "The Sabre"
+		value 35000
+		health 800
+		color 93
+		level 200
+		strength 15
+	end
+
+	base carryable
+		weight 30.0
+	end
+
+	base weapon
+		minDamage 60
+		maxDamage 120
+		mask female
+	end
+
+	actions
+		vBePutOn setAffect dobj 56 0 0 -1
+		vBeTakenOff clearAffect dobj 56 0 0
+	end
+
+	components
+		AdmantiumTwoHandSword
+		AdmantiumTwoHandSword
+		MagicBar
+		MagicBar
+		MagicBar
+	end
+
+	base described
+		text "You see a huge curved two-handed sword made of some strange material."
+		idText "This is the sabre, the most destructive of two-handed swords.  Level Required: 200"
+		shopText "Here is the renowned Sabre, the most dangerous of two-handed swords."
+	end
+end
 #------------------------------------------------------------
 object mwDefender of LongSword
 	properties
