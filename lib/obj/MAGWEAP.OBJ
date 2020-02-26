@@ -260,47 +260,6 @@ object mwWrathFIRE of TwoHandSword
 		shopText "Here is the renowned Wrath, the most dangerous of two-handed swords."
 	end
 end
-
-object mwSabre of TwoHandSword
-	properties
-		view 15020
-		name "The Sabre"
-		value 35000
-		health 800
-		color 93
-		level 200
-		strength 15
-	end
-
-	base carryable
-		weight 30.0
-	end
-
-	base weapon
-		minDamage 60
-		maxDamage 120
-		mask female
-	end
-
-	actions
-		vBePutOn setAffect dobj 56 0 0 -1
-		vBeTakenOff clearAffect dobj 56 0 0
-	end
-
-	components
-		AdmantiumTwoHandSword
-		AdmantiumTwoHandSword
-		MagicBar
-		MagicBar
-		MagicBar
-	end
-
-	base described
-		text "You see a huge curved two-handed sword made of some strange material."
-		idText "This is the sabre, the most destructive of two-handed swords.  Level Required: 200"
-		shopText "Here is the renowned Sabre, the most dangerous of two-handed swords."
-	end
-end
 #------------------------------------------------------------
 object mwDefender of LongSword
 	properties
