@@ -2008,6 +2008,1346 @@ object maThurisazCowl of ChainCowl
     end
 end
 
+object GameMasterToolbox of TravelerToolbox
+	properties
+        special
+		name "Game Master Toolbox"
+
+		#Staff affect
+		affect 99 0 5 -1
+	end
+
+    base shop
+		buyMarkup 0
+		sellMarkup 0
+
+		inventory
+			category "GM Stuff"	45501
+				object SentinelBaldric
+				object ImplementorBaldric
+				object CRBaldric
+				object EventsBaldric
+				object MentorBaldric
+				object SentinelHelm 
+				object MentorHelmet
+				object BishopHat
+				object DuachsAura
+				object DespothesCrown
+				object RareCrown 
+				object GMCTCHorn
+			end
+			category "New Stuffs" 94012
+				object TravelerToolbox
+				object TwoHandSaber
+				object SkullHood
+				object CastleHelm 
+				object AquaHelm 
+				object PharoahHelm
+				category "Skills/Spells" 84500
+					object skbSorceryVI
+					object skbThaumaturgyVI
+					object skbMysticismVI
+					object skbElementalismVI
+					object skbNecromancyVI
+					object skbBroadSwordVI
+					object spbSummonMist
+					object spbImpInvulnerability
+					object spbEnlightenment
+					object spbVitality
+					object spbDamnation
+				end
+				category "Levels 1-25" 94003
+					category "Cloth" 98988
+						object TatteredClothHood
+						object ClothCowl
+						object ClothShirt
+						object ClothBands
+						object ClothLeggings
+						object ClothLowBoots
+						object ClothHighBoots
+					end
+					category "Leather" 98985
+						object RaggedLeatherBandana
+						object BaseLeatherCowl
+						object LeatherArmor
+						object LeatherBands
+						object LeatherLeggings
+						object RaggedLeatherLowBoots
+						object RaggedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object RustyChainHelmet
+						object BaseChainCowl
+						object ChainmailTunic
+						object ChainBands
+						object ChainLeggings
+						object ChainLowBoots
+						object ChainHighBoots
+					end
+					category "Plate" 98985
+						object DentedPlateHelmet
+						object PlateCowl
+						object ChestPlate
+						object PlateBands
+						object PlateLeggings
+						object PlateLowBoots
+						object PlateHighBoots
+					end
+				end
+				category "Levels 25-50" 94003
+					category "Cloth" 98988
+						object ThickClothHood
+						object ThickClothCowl
+						object ThickClothShirt
+						object ThickClothBands
+						object ThickClothLeggings
+						object ThickClothLowBoots
+						object ThickClothHighBoots
+					end
+					category "Leather" 98985
+						object PaddedLeatherBandana
+						object PaddedLeatherCowl
+						object PaddedLeatherArmor
+						object PaddedLeatherBands
+						object PaddedLeatherLeggings
+						object PaddedLeatherLowBoots
+						object PaddedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object SteelChainHelmet
+						object SteelChainCowl
+						object SteelChainmailTunic
+						object SteelChainBands
+						object SteelChainLeggings
+						object SteelChainLowBoots
+						object SteelChainHighBoots
+					end
+					category "Plate" 98985
+						object IronPlateHelmet
+						object IronPlateCowl
+						object IronChestPlate
+						object IronPlateBands
+						object IronPlateLeggings
+						object IronPlateLowBoots
+						object IronPlateHighBoots
+					end
+				end
+				category "Levels 50-75" 94003
+					category "Cloth" 98988
+						object TatteredWoolCap
+						object TatteredWoolCowl
+						object TatteredWoolShirt
+						object TatteredWoolBands
+						object TatteredWoolLeggings
+						object TatteredWoolLowBoots
+						object TatteredWoolHighBoots
+					end
+					category "Leather" 98985
+						object StuddedLeatherHelmet
+						object StuddedLeatherCowl
+						object StuddedLeatherArmor
+						object StuddedLeatherBands
+						object StuddedLeatherLeggings
+						object StuddedLeatherLowBoots
+						object StuddedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object PolishedChainHelmet
+						object SturdyChainCowl
+						object SturdyChainmailTunic
+						object SturdyChainBands
+						object SturdyChainLeggings
+						object SturdyChainLowBoots
+						object SturdyChainHighBoots
+					end
+					category "Plate" 98985
+						object SturdyPlateHelmet
+						object SteelPlateCowl
+						object SteelChestPlate
+						object SteelPlateBands
+						object SteelPlateLeggings
+						object SteelPlateLowBoots
+						object SteelPlateHighBoots
+					end
+				end
+				category "Levels 75-100" 94003
+					category "Cloth" 98988
+						object ThickWoolCap
+						object ThickWoolCowl
+						object ThickWoolShirt
+						object ThickWoolBands
+						object ThickWoolLeggings
+						object ThickWoolLowBoots
+						object ThickWoolHighBoots
+					end
+					category "Leather" 98985
+						object HardenedLeatherHelmet
+						object HardenedLeatherCowl
+						object HardenedLeatherArmor
+						object HardenedLeatherBands
+						object HardenedLeatherLeggings
+						object HardenedLeatherLowBoots
+						object HardenedLeatherHighBoots
+					end
+					category "Chain" 98985
+						object MythrilChainHelmet
+						object MythrilChainCowl
+						object MythrilChainmailTunic
+						object MythrilChainBands
+						object MythrilChainLeggings
+						object MythrilChainLowBoots
+						object MythrilChainHighBoots
+					end
+					category "Plate" 98985
+						object MythrilPlateHelmet
+						object MythrilPlateCowl
+						object MythrilChestPlate
+						object MythrilPlateBands
+						object MythrilPlateLeggings
+						object MythrilPlateLowBoots
+						object MythrilPlateHighBoots
+					end
+				end
+			end
+			category "God Keys" 94000
+				object EnidKey
+				object DuachKey
+				object ElphameKey
+				object MabonKey
+				object FinvarraKey
+			end 		
+			category "Finvarras Set" 94000
+				object maFinvarrasCuirass
+				object maFinvarrasGreaves
+				object maFinvarrasBands
+				object maFinvarrasTreads
+				object maFinvarrasCollar
+			end 
+			category "Bandit Set" 94000
+				object maBanditGreaves
+				object maBanditBrig
+				object maBanditGauntlets
+				object maReinforcedScarf
+				object maBanditBoots
+			end 
+			category "Enid Gear" 94000
+				object maEnidGuards
+				object maEnidsNecklace
+			end 
+			category "Mabons Set" 94000
+				object MabonPants
+				object MabonShirt
+				object MabonShoes
+				object MabonCowl
+				object HoodMabon
+				object MabonRobe
+				object MabonSkirt
+				object MabonBracers
+				object MabonsShield
+				object MabonBaldric
+			end 	
+			category "Elphame Set" 95000
+				object maElphamesBands
+				object maElphamesShoes
+				object maElphamesCowl
+				object maElphamesShirt
+				object maElphamesHose
+			end
+			category "Warrior Set" 94000
+				object maTruthGreaves
+				object maPlateOfResolution
+				object maGauntlets
+				object maBesCowl
+				object bGladiatorBelt
+				object maWarriorsSabatons
+				object rSmashing
+				object aWar
+				object GladiatorHelm
+			end 
+			category "Adventurer Set" 94001
+				object maAdvChausses
+				object maCuirassOfAggression
+				object maGuardOfVambrace
+				object maBevorOfIntrigue
+				object maSolleretsOfAcceleration
+				object bTravellersGirdle
+				object rGlory
+				object aAdventure
+				object AdvHelmet
+			end 
+			category "Wiz Set" 94002
+				object maBishopPants
+				object maBishopShirt
+				object maMagesWristbrace
+				object maArchMageCowl
+				object bArcaneBelt
+				object maShoesOfPower
+				object rConjuration
+				object aConcentrate
+				object SorcererHelm
+			end
+			category "Thief Set" 94003
+				object maSwindlerHose
+				object maSwindlerShirt
+				object maWristwraps
+				object maBanditScarf
+				object bThievesTools
+				object maSlippersOfEngagement
+				object rQuickness
+				object aSneak
+				object BanditMask
+			end
+            category "Misc Armor" 94001
+                object maPixie
+				object maThorsPlate
+				object maInvulPlateProc
+                object maWorg
+            end
+			category "Weapons" 94005
+				object mwVirtue
+				object mwSplinter
+				object mwDestitution
+				object mwSorrow
+				object mwMighty
+				object mwAlpha
+                object mwCretin
+				object mwTiwazDagger
+                object mwPowerFist
+				object mwCleaver
+				object mwOmega
+				object mwHate
+				object mwPuncture
+				object mwWand
+				object mwBludgeon
+				object mwLightDart
+				object mwSiphon
+				object mwCrusher
+				object mwLightning
+				object mwDeathWish
+				object mwRepel 
+				object mwGnasher
+				object mwRupture
+				object mwDeath
+				object mwNeedle
+				object mwFalchion
+				object mwFang
+				object mwFatSword
+				object mwMurmur
+				object mwAgony
+				object mwRod
+				object mwDarts
+				object mwBagh
+				object mwKnuckles
+				object mwVengeance
+				object mwBardiche
+				object mwDespothes
+				object mwSapper
+				object mwElvenClub
+				object mwFury
+				object mwEqualizer
+				object mwAxeOfDesolation
+				object mwSalvation
+				object mwAbyss
+				object mwMaceOfCreation
+				object mwDaggerOfAbsolution
+				object mwClawOfDestruction
+				object mwElementalBarb
+				object GodsRage
+				object GodsMercy
+				object mwMagesBlade
+				object mwRedemption
+				object mwBrokenExcalibur
+				object mwRighteous
+				object mwRetribution
+				object mwJustice
+				object mwRavager
+				object mwDevastation	
+				object mwBiterE
+				object mwBiterG
+				object mwAgitator
+				object mwNegotiator		
+				object mwElvenClub
+				object mwLance
+				object mwGuillotine
+			end
+            category "Norseman Gear" 94000
+				object ThistlebarkSash
+				category "Armor" 51234
+					category "Wizard" 12345
+						object maShieldOfInfiniteThought
+						object maArchMagesPants
+						object maArchMagesShirt
+						object maBootsOfEvasion
+						object maCowlOfImmortality
+						object maImbuedGarment
+						object maGlacialPantaloons
+					end
+					category "Thieves" 12345
+						object maMagistratesVest
+						object maMagistratesLeggings
+					end
+					category "Adventurer" 12345
+						object maLegacyChainmail
+						object maLegacyChainLeggings
+					end
+					category "Warrior" 52345
+						object bGirdleOfMight
+						object maBracersOfBattle
+						object maBreastplateOfBattle
+						object maGreavesOfFortitude
+						object maReflectivePlate
+						object maGreavesOfResilience
+					end
+					category "Misc" 12345
+						object maFirePants
+						object maElecPants
+						object maColdPants
+						object maAcidPants
+						object maRustPants
+						object maThurisazCowl
+					end
+				end
+				category "Weapons" 67321
+					object mwDragonClaw
+					object mwDuachsThorn
+					object ogEnidsNeedle
+					object ogFafnirFang
+					object ogGram
+					object mwHarbingerDoom
+					object ogWyrdDagger
+					object mwTheDefender
+					object mwTheKeeper
+					object mwThePreserver
+					object mwThePatron
+					object mwGnawBlade
+					object mwArcticBlade
+					object mwLightningBlade
+					object mwVulcanBlade
+					object mwSwordOfKenaz
+					object mwSwordOfDagaz
+					object mwSwordOfEihwaz
+					object mwSwordOfHagalaz
+					object mwBloodSword
+					object mwHeartSword
+					object mwSpiritSword
+					object mwSoulSword
+					object mwHolyShard
+					object mwVampiricShiv
+					object mwCausticGrasp
+					object mwTheOhm
+				end
+				category "Jewelry" 67321
+					object rRingOfDestruction
+					object rRingOfPower
+					object aAmuletOfAdventure
+				end
+				category "Shields" 67321
+					object maWardingBuckler
+					object maProtectionGlyph
+				end
+			end 
+			category "Baldrics" 94006
+				category "Color Baldrics" 94031
+					object bdNaturalBrown
+					object bdRustBrown
+					object bdMediumRustBrown
+					object bdLightRustBrown
+					object bdPaleRustBrown
+					object bdSepia
+					object bdOliveBrown
+					object bdDarkOliveGreen
+					object bdSienna
+					object bdCerulean
+					object bdDodgerBlue
+					object bdDeepSkyBlue
+					object bdTurquoise
+					object bdRoyalBlue
+					object bdCeladon
+					object bdFireBrick
+					object bdCoralRedGlow
+					object bdBabyPink
+					object bdGinger
+					object bdLightAmber
+					object bdPaleYellow
+					object bdEggPlant
+					object bdMagentaGlow
+					object bdLightMagenta
+					object bdBrownMagentaGlow
+					object bdBrownPinkGlow
+					object bdSandyBrown
+					object bdMediumCyan
+					object bdCadetBlue
+					object bdLightCyan
+					object bdSatori
+					object bdSeaGreenGlow
+					object bdLightGreen
+					object bdDarkScarlet
+					object bdOrangeGlow
+					object bdIndigo
+					object bdPlumGlow
+					object bdLightPurpleLines
+					object bdBlueBlack
+					object bdBlackGlow
+					object bdBrightWhite
+					object bdChocolate
+					object bdBrownGlow
+					object bdCreamBrown
+					object bdLightCreamBrown
+					object bdDarkOliveGlow
+					object bdOliveGlow
+					object bdLightYellowLines
+					object bdDarkBlue
+					object bdBlueGlow
+					object bdMaroon
+					object bdMaroonGlow
+					object bdLightPink
+					object bdTawny
+					object bdYellowOrangeGlow
+					object bdEggplantYellow
+					object bdPurpleGlow
+					object bdLighterMagenta
+					object bdDarkChocolate
+					object bdDarkBrownMagentaGlow
+					object bdCyprus
+					object bdDeepSeaGlow
+					object bdForestGreen
+					object bdForestGreenGlow
+					object bdPaleGreen
+					object bdDarkBurntOrange
+					object bdDarkOrangeGlow
+					object bdDarkPurpleOrange
+					object bdDarkPurpleGlow
+					object bdLightPurple
+					object bdDarkPuple
+					object bdDarkBlackGlow
+					object bdBrighterWhite
+					object bdSaddleBrown
+					object bdDarkBrownGlow
+					object bdDarkFlesh
+					object bdTanFlesh
+					object bdLightFleshGreen
+					object bdGreenLightFlesh
+					object bdGrayGreen
+					object bdGrayLittleGreen
+					object bdLightestFinvarra
+					object bdLightFinvarra
+					object bdLighterFinvarra
+					object bdFinvarra
+					object bdBlackLatex
+					object bdGrayBlack
+					object bdAlmondFrost
+					object bdPharlap
+					object bdDarkPharlap
+					object bdDarkerPharlap
+					object bdDarkestPharlap
+					object bdSealBrownGlow
+					object bdLightTan
+					object bdTeak
+					object bdMediumTeak
+					object bdDarkTeak
+					object bdDarkerTeak
+					object bdDarkestTeak
+					object bdDarkBrownCitrusGlow
+					object bdCitrusDarkbrown
+					object bdUltraOlive
+					object bdDarkOlive
+					object bdDarkerOlive
+					object bdDarkestOlive
+					object bdDarkPrussianBlue
+					object bdPrussianBlue
+					object bdPrussianBlueGlow
+					object bdSapling
+					object bdEcru
+					object bdDarkEcru
+					object bdDarkerEcru
+					object bdYellowOrange
+					object bdMediumYellowOrange
+					object bdDarkYellowOrange
+					object bdDarkerYellowOrange
+					object bdDarkestYellowOrange
+					object bdDarkOrangeRedGlow
+					object bdFleshDarkBrown
+					object bdLightFleshBlured
+					object bdPaleFlesh
+					object bdLightTawny
+					object bdCarrotOrangeGlow
+					object bdKournikova
+					object bdLightYellow
+					object bdGrayYellow
+					object bdGrayLittleYellow
+					object bdLighterSilk
+					object bdLightSilk
+					object bdSilk
+					object bdDarkSilk
+					object bdDarkerSilk
+					object bdDarkestSilk
+					object bdDarkBrown
+					object bdMediumBrown
+					object bdLightBrown
+					object bdPaleBrown
+					object bdDarkLightBrown
+					object bdDarkestBrownGlow
+					object bdDarkMudBrown
+					object bdBlackBrown
+					object bdBlackLittleBrown
+					object bdGrayLittleBlack
+					object bdLightGray
+					object bdDarkGreenGlow
+					object bdDarkNaturalBrown
+					object bdShiftingLightestChrome
+				end
+                object 3000Baldric
+				object 4000Baldric
+				object 5000Baldric
+				object 7500Baldric
+				object ElphameGuardianBaldric
+				object DespothesGuardianBaldric
+				object DungeonDweller
+				object YorkBaldric
+				object AchrenBaldric
+				object CrucibleBaldric
+				object AvoidanceBaldric
+				object ProtectionBaldric
+				object GeneralBaldric		
+				object AmazingBaldric
+				object tSash
+				object ThistlebarkA
+				object ThistlebarkB
+			end
+			category "Stat Gear" 94006
+				category "Apprentice" 94041
+					category "Boots" 94061
+						object AppHighBootsOfStrength
+						object AppHighBootsOfDexterity
+						object AppHighBootsOfIntelligence
+						object AppHighBootsOfEndurance
+					end	
+					category "Robes" 94071
+						object AppRobeOfStrength
+						object AppRobeOfDexterity
+						object AppRobeOfIntelligence
+						object AppRobeOfEndurance
+					end
+					category "Skirts" 94081
+						object AppLongSkirtOfStrength
+						object AppLongSkirtOfDexterity
+						object AppLongSkirtOfIntelligence
+						object AppLongSkirtOfEndurance
+					end
+				end
+				category "Novice" 94051
+					category "Boots" 94061
+						object NoviceHighBootsOfStrength
+						object NoviceHighBootsOfDexterity
+						object NoviceHighBootsOfIntelligence
+						object NoviceHighBootsOfEndurance
+					end
+					category "Robes" 94071
+						object NoviceRobeOfStrength
+						object NoviceRobeOfDexterity
+						object NoviceRobeOfIntelligence
+						object NoviceRobeOfEndurance
+					end
+					category "Skirts" 94081
+						object NoviceShortSkirtOfStrength
+						object NoviceShortSkirtOfDexterity
+						object NoviceShortSkirtOfIntelligence
+						object NoviceShortSkirtOfEndurance
+					end
+				end
+			end
+			category "Shields" 94007
+                object Targe
+				object HeaterShield
+                object HoldingShield
+				object AdvTarge
+				object AssassinTarge
+				object ConjuredShield
+				object BrutalShield
+				object ArenaShield
+				object ArcaneShield
+				object ThiefBuckler		
+				object MabonsShield
+				object Parma
+				object Barricade
+				object ShieldWall
+			end	
+			category "Backpacks" 94008
+				object MagicalKnapsack
+				object BackPackOfHolding
+				object FinvarraPack
+			end				
+			category "Dyes" 94010
+				category "Custom Dyes" 94031
+					object dNaturalBrown
+					object dRustBrown
+					object dMediumRustBrown
+					object dLightRustBrown
+					object dPaleRustBrown
+					object dSepia
+					object dOliveBrown
+					object dDarkOliveGreen
+					object dSienna
+					object dCerulean
+					object dDodgerBlue
+					object dDeepSkyBlue
+					object dTurquoise
+					object dRoyalBlue
+					object dCeladon
+					object dFireBrick
+					object dCoralRedGlow
+					object dBabyPink
+					object dGinger
+					object dLightAmber
+					object dPaleYellow
+					object dEggPlant
+					object dMagentaGlow
+					object dLightMagenta
+					object dBrownMagentaGlow
+					object dBrownPinkGlow
+					object dSandyBrown
+					object dMediumCyan
+					object dCadetBlue
+					object dLightCyan
+					object dSatori
+					object dSeaGreenGlow
+					object dLightGreen
+					object dDarkScarlet
+					object dOrangeGlow
+					object dIndigo
+					object dPlumGlow
+					object dLightPurpleLines
+					object dBlueBlack
+					object dBlackGlow
+					object dBrightWhite
+					object dChocolate
+					object dBrownGlow
+					object dCreamBrown
+					object dLightCreamBrown
+					object dDarkOliveGlow
+					object dOliveGlow
+					object dLightYellowLines
+					object dDarkBlue
+					object dBlueGlow
+					object dMaroon
+					object dMaroonGlow
+					object dLightPink
+					object dTawny
+					object dYellowOrangeGlow
+					object dEggplantYellow
+					object dPurpleGlow
+					object dLighterMagenta
+					object dDarkChocolate
+					object dDarkBrownMagentaGlow
+					object dCyprus
+					object dDeepSeaGlow
+					object dForestGreen
+					object dForestGreenGlow
+					object dPaleGreen
+					object dDarkBurntOrange
+					object dDarkOrangeGlow
+					object dDarkPurpleOrange
+					object dDarkPurpleGlow
+					object dLightPurple
+					object dDarkPuple
+					object dDarkBlackGlow
+					object dBrighterWhite
+					object dSaddleBrown
+					object dDarkBrownGlow
+					object dDarkFlesh
+					object dTanFlesh
+					object dLightFleshGreen
+					object dGreenLightFlesh
+					object dGrayGreen
+					object dGrayLittleGreen
+					object dLightestFinvarra
+					object dLightFinvarra
+					object dLighterFinvarra
+					object dFinvarra
+					object dBlackLatex
+					object dGrayBlack
+					object dAlmondFrost
+					object dPharlap
+					object dDarkPharlap
+					object dDarkerPharlap
+					object dDarkestPharlap
+					object dSealBrownGlow
+					object dLightTan
+					object dTeak
+					object dMediumTeak
+					object dDarkTeak
+					object dDarkerTeak
+					object dDarkestTeak
+					object dDarkBrownCitrusGlow
+					object dCitrusDarkbrown
+					object dUltraOlive
+					object dDarkOlive
+					object dDarkerOlive
+					object dDarkestOlive
+					object dDarkPrussianBlue
+					object dPrussianBlue
+					object dPrussianBlueGlow
+					object dSapling
+					object dEcru
+					object dDarkEcru
+					object dDarkerEcru
+					object dYellowOrange
+					object dMediumYellowOrange
+					object dDarkYellowOrange
+					object dDarkerYellowOrange
+					object dDarkestYellowOrange
+					object dDarkOrangeRedGlow
+					object dFleshDarkBrown
+					object dLightFleshBlured
+					object dPaleFlesh
+					object dLightTawny
+					object dCarrotOrangeGlow
+					object dKournikova
+					object dLightYellow
+					object dGrayYellow
+					object dGrayLittleYellow
+					object dLighterSilk
+					object dLightSilk
+					object dSilk
+					object dDarkSilk
+					object dDarkerSilk
+					object dDarkestSilk
+					object dDarkBrown
+					object dMediumBrown
+					object dLightBrown
+					object dPaleBrown
+					object dDarkLightBrown
+					object dDarkestBrownGlow
+					object dDarkMudBrown
+					object dBlackBrown
+					object dBlackLittleBrown
+					object dGrayLittleBlack
+					object dLightGray
+					object dDarkGreenGlow
+					object dDarkNaturalBrown
+					object dShiftingLightestChrome
+				end
+				category "Hair Dyes" 94011
+					object hdLightRed
+					object hdRed
+					object hdLightGrey
+					object hdGrey
+					object hdDarkGrey
+					object hdOrange
+					object hdLightOrange
+					object hdReddishBrown
+					object hdBrown
+					object hdLightYellow
+					object hdYellow
+					object hdLightBlue
+					object hdBlue
+					object hdWhite
+					object hdOlive
+					object hdLightOlive
+					object hdMagenta
+					object hdLightMagenta
+					object hdDarkBrown
+					object hdLightBrown
+					object hdAqua
+					object hdLightAqua
+					object hdGreen
+					object hdLightGreen
+					object hdPurple
+					object hdLightPurple
+					object hdPaleBrown
+					object hdPalePaleBrown
+					object hdNaturalBrown  
+						object hdRustBrown  
+						object hdMediumRustBrown  
+						object hdLightRustBrown  
+						object hdPaleRustBrown  
+						object hdSepia  
+						object hdOliveBrown  
+						object hdDarkOliveGreen  
+						object hdSienna  
+						object hdCerulean  
+						object hdDodgerBlue  
+						object hdDeepSkyBlue  
+						object hdTurquoise  
+						object hdRoyalBlue  
+						object hdCeladon  
+						object hdFireBrick  
+						object hdCoralRedGlow  
+						object hdBabyPink  
+						object hdGinger  
+						object hdLightAmber  
+						object hdPaleYellow  
+						object hdEggPlant  
+						object hdMagentaGlow  
+						object hdLightMagentaC  
+						object hdBrownMagentaGlow  
+						object hdBrownPinkGlow  
+						object hdSandyBrown  
+						object hdMediumCyan  
+						object hdCadetBlue  
+						object hdLightCyan  
+						object hdSatori  
+						object hdSeaGreenGlow  
+						object hdLightGreenC  
+						object hdDarkScarlet  
+						object hdOrangeGlow  
+						object hdIndigo  
+						object hdPlumGlow  
+						object hdLightPurpleLines  
+						object hdBlueBlack  
+						object hdBlackGlow  
+						object hdBrightWhite  
+						object hdChocolate  
+						object hdCreamBrown  
+						object hdLightCreamBrown  
+						object hdDarkOliveGlow  
+						object hdOliveGlow  
+						object hdLightYellowLines  
+						object hdDarkBlue  
+						object hdBlueGlow  
+						object hdMaroon  
+						object hdMaroonGlow  
+						object hdLightPink  
+						object hdTawny  
+						object hdYellowOrangeGlow  
+						object hdEggplantYellow  
+						object hdPurpleGlow  
+						object hdLighterMagenta  
+						object hdDarkChocolate  
+						object hdDarkBrownMagentaGlow  
+						object hdCyprus  
+						object hdDeepSeaGlow  
+						object hdForestGreen  
+						object hdForestGreenGlow  
+						object hdPaleGreen  
+						object hdDarkBurntOrange  
+						object hdDarkOrangeGlow  
+						object hdDarkPurpleOrange  
+						object hdDarkPurpleGlow  
+						object hdLightPurpleC  
+						object hdDarkPuple  
+						object hdDarkBlackGlow  
+						object hdBrighterWhite  
+						object hdSaddleBrown  
+						object hdDarkBrownGlow  
+						object hdDarkFlesh  
+						object hdTanFlesh  
+						object hdLightFleshGreen  
+						object hdGreenLightFlesh  
+						object hdGrayGreen  
+						object hdGrayLittleGreen  
+						object hdLightestFinvarra  
+						object hdLightFinvarra  
+						object hdLighterFinvarra  
+						object hdFinvarra  
+						object hdBlackLatex  
+						object hdGrayBlack  
+						object hdAlmondFrost  
+						object hdPharlap  
+						object hdDarkPharlap  
+						object hdDarkerPharlap  
+						object hdDarkestPharlap  
+						object hdSealBrownGlow  
+						object hdLightTan  
+						object hdTeak  
+						object hdMediumTeak  
+						object hdDarkTeak  
+						object hdDarkerTeak  
+						object hdDarkestTeak  
+						object hdDarkBrownCitrusGlow  
+						object hdCitrusDarkbrown  
+						object hdUltraOlive  
+						object hdDarkOlive  
+						object hdDarkerOlive  
+						object hdDarkestOlive  
+						object hdDarkPrussianBlue  
+						object hdPrussianBlue  
+						object hdPrussianBlueGlow  
+						object hdSapling  
+						object hdEcru  
+						object hdDarkEcru  
+						object hdDarkerEcru  
+						object hdYellowOrange  
+						object hdMediumYellowOrange  
+						object hdDarkYellowOrange  
+						object hdDarkerYellowOrange  
+						object hdDarkestYellowOrange  
+						object hdDarkOrangeRedGlow  
+						object hdFleshDarkBrown  
+						object hdLightFleshBlured  
+						object hdPaleFlesh  
+						object hdLightTawny  
+						object hdCarrotOrangeGlow  
+						object hdKournikova  
+						object hdLightYellowC  
+						object hdGrayYellow  
+						object hdGrayLittleYellow  
+						object hdLighterSilk  
+						object hdLightSilk  
+						object hdSilk  
+						object hdDarkSilk  
+						object hdDarkerSilk  
+						object hdDarkestSilk  
+						object hdDarkBrownC  
+						object hdMediumBrown  
+						object hdLightBrownC  
+						object hdPaleBrownC  
+						object hdDarkLightBrown  
+						object hdDarkestBrownGlow  
+						object hdDarkMudBrown  
+						object hdBlackBrown  
+						object hdBlackLittleBrown  
+						object hdGrayLittleBlack  
+						object hdLightGray  
+						object hdShiftingWhiteLines  
+						object hdShiftingWhite  
+						object hdShiftingAllWhite  
+						object hdShiftingLightGray  
+						object hdShiftingGray  
+						object hdShiftingDarkGray  
+						object hdShiftingDarkerGray  
+						object hdShiftingDarkestGray  
+						object hdShiftingBlack  
+						object hdShiftingBlackGlow  
+						object hdShiftingStarkBlack  
+						object hdShiftingStarkWhite  
+						object hdShiftingLightestRosyBrown  
+						object hdShiftingLightRosyBrown  
+						object hdShiftingRosyBrown  
+						object hdShiftingDarkRosyBrown  
+						object hdShiftingDarkerRosyBrown  
+						object hdShiftingDarkestRosyBrown  
+						object hdShiftingDarkRosyBrownGlow  
+						object hdShiftingOffWhite  
+						object hdShiftingLightCream  
+						object hdShiftingCream  
+						object hdShiftingBronzeOlive  
+						object hdShiftingDarkBronzeGlow  
+						object hdShiftingOrangeBrown  
+						object hdShiftingOrangeBrownGlow  
+						object hdShiftingWhiteOrange  
+						object hdShiftingLightestChrome  
+						object hdShiftingLighterChrome  
+						object hdShiftingLightChrome  
+						object hdShiftingChrome  
+						object hdShiftingDarkChrome  
+						object hdShiftingDarkerChrome  
+						object hdShiftingDarkestChrome  
+						object hdShiftingDarkBrown  
+						object hdShiftingLightestVanilla  
+						object hdShiftingLighterVanilla  
+						object hdShiftingLightVanilla  
+						object hdShiftingVanilla  
+						object hdShiftingDarkVanilla  
+						object hdShiftingDarkerVanilla  
+						object hdShiftingDarkestVanilla  
+						object hdShiftingCoffeeGlow  
+						object hdShiftingOffWhiteLines  
+						object hdShiftingDarkGreenGlow  
+						object hdShiftingGreenGlow  
+						object hdShiftingOlive  
+						object hdShiftingLime  
+						object hdShiftingWhiteGreen  
+						object hdShiftingGrayLime  
+						object hdShiftingLighterFossil  
+						object hdShiftingLightFossil  
+						object hdShiftingFossil  
+						object hdShiftingDarkFossil  
+						object hdShiftingDarkerFossil  
+						object hdShiftingBlackGreenGlow  
+						object hdShiftingLightGreen  
+						object hdDarkGreenGlow  
+						object hdDarkNaturalBrown 
+				end 	
+			end 	
+			category "Mundane Helms"  62683
+					object hornedHelm
+					object MythrilHelmet 
+					object NightSoulHelmet 
+					object CenturionHelmet 
+					object TribuneHelmet
+					object Hood
+					object VikingHelmet 
+					object SaurianHelmet 
+					object MythrilLegionHelmet
+					object Bandanna 
+					object RaptorHelmet
+					object DruidHelmet
+					object MythrilMinervaHelmet
+					object HuntressHelmet
+					object UplanderHelmet 
+					object WizardCap 
+					object IdiotHat
+					object CourtierHat
+					object MythrilHelmet
+					object MythrilLegionHelmet
+					object MythrilMinervaHelmet
+					object TemperedSteelHelmet
+					object TemperedSteelLegionHelmet
+					object TemperedSteelMinervaHelmet
+			end
+			category "Magic Helms" 13633
+				category "Hidden Helmets" 88543
+					object rSentinel
+					object rMentor
+					object rRareCrown
+					object rCrownOfPower
+					object rBishopHat
+					object rHopliteM
+					object rHopliteF
+					object rWarlocksHat
+					object rBanditMask
+					object rSorcererHelm
+					object rGladiatorHelm
+					object rAdvHelmet 
+					object rConquestHelmet
+					object rDespairHelm
+					object rKhanHelmet
+					object rMageHat
+				end
+                object DespairHelm
+				object ConquestHelmet
+				object WarlocksHat
+                object maHopliteM
+				object maHopliteF
+				object maCrownOfPower
+				object CastleMageHat
+				object CastleGladiatorHelm
+				object CastleAdvHelmet
+				object CastleBanditMask
+				object CastleUplanderHelmet
+				object maKhnum
+				object maSentinel
+				object maMentor
+				object maRareCrown
+				object maBishopHat
+				object BerserkHelmet 
+				object ConquererHelmet
+				object DefenseHelmet 
+				object FiannaHelmet
+				object IntellHelmet
+				object JesterHat
+				object KhanHelmet 
+				object LadyRealmHat 
+				object LegionWarriorHelmet
+				object MageHat 
+				object MinervaWarriorHelmet
+				object NourishHelmet 
+				object PredatorHelmet
+				object RangerHelmet
+				object ShiftHood
+				object NightmareHelmet
+				object ThiefMask 
+			end
+			category "Magic Trinkets" 51033
+                category "Magical Jewels" 94000
+				    object TokenRed
+				    object TokenGreen
+			    end 
+				category "Amulets" 51533
+					category "Wizard Amulets" 55421
+						object aConcentrate2000
+						object aConcentrate3000
+						object aConcentrate4000
+						object aConcentrate5000
+						object aConcentrate6000
+						object aConcentrate7000
+						object aConcentrate8000
+						object aConcentrate9000
+						object aConcentrate10000
+					end
+					category "Hitter Amulets" 54462
+						object aHitting
+						object aHitting2
+						object aHitting3
+						object aHitting4
+					end
+					category "Standard" 51533
+						object aFreeWill
+						object aDeathProtection
+						object aCombat
+						object aEndurance
+						object aIntelligence
+					end
+					category "Newer" 51533
+						object Totem
+						object aOffense
+					end
+					category "Elementalism" 51533
+						object ElementalAmuletI
+						object ElementalAmuletII
+						object ElementalAmuletIII
+						object ElementalAmuletIV
+						object ElementalAmuletV
+						object ElementalAmuletVI
+						object ElementalAmuletVII
+						object ElementalAmuletVIII
+						object ElementalAmuletIX
+						object ElementalAmuletX
+						object ElementalAmuletXI
+					end
+					category "Thaumaturgy" 51533
+						object ThaumaturgyAmuletI
+						object ThaumaturgyAmuletII
+						object ThaumaturgyAmuletIII
+						object ThaumaturgyAmuletIV
+						object ThaumaturgyAmuletV
+						object ThaumaturgyAmuletVI
+						object ThaumaturgyAmuletVII
+						object ThaumaturgyAmuletVIII
+						object ThaumaturgyAmuletIX
+						object ThaumaturgyAmuletX
+						object ThaumaturgyAmuletXI
+					end
+					category "Necromancy" 51533
+						object NecromancyAmuletI
+						object NecromancyAmuletII
+						object NecromancyAmuletIII
+						object NecromancyAmuletIV
+						object NecromancyAmuletV
+						object NecromancyAmuletVI
+						object NecromancyAmuletVII
+						object NecromancyAmuletVIII
+						object NecromancyAmuletIX
+						object NecromancyAmuletX
+						object NecromancyAmuletXI
+					end
+				end 	#-------------- End Amulets ----------------
+				category "Rings" 51434
+                    object rBerserk
+				    object rInvisibility
+				    object rShifting
+					object rSpellpower
+					object rSpelunking
+					object rBlurredSpeed
+					object rBrutality
+					object rMysticalMStr
+					object rMysticalMDex
+					object rMysticalMInt
+					object rMysticalMEnd
+					object rMysticalFStr
+					object rMysticalFDex
+					object rMysticalFInt
+					object rMysticalFEnd
+					object rMighty
+					object rDestruction
+					object MysticismWardRingI
+					object MysticismWardRingII
+					object ElementalWardRingI
+					object ElementalWardRingII
+					object rEnid
+					object rDuach
+					object rDespothes
+					object rCEnid
+					object rCDuach
+					object rCDespothes
+					object rBlackhair
+					object rWhitehair
+					object rIntelligence
+					object rEndurance
+					object rStrength
+					object rDexterity
+                    object rGreyskin
+				    object rYellowskin
+				    object rGreenskin
+				end
+				category "Belts" 94008
+					object bGreenskin
+					object bYellowskin
+					object bGreyskin
+					object bCarrying
+                    object bSurvivor
+				    object bWarlock
+                    object bWizard
+                    object bWarrior
+                    object bAdventurer
+                    object bThief
+				end		
+				category "Other" 51033
+					category "Proc Scrolls" 54333
+						object sDVForwardWeaponProc
+						object sRepelForwardChestProc
+						object sHealReverseChestProc
+						object sAMAReverseBracerProc
+						object sShiftReverseHelmProc
+						object sInvulReverseChestProc
+						object sFumbleReverseLegProc
+						object sIOForwardWeaponProc
+						object sFOForwardWeaponProc
+						object sCleaveForwardWeaponProc
+						object sLDForwardWeaponProc
+						object sSparkForwardWeaponProc
+						object sEQForwardWeaponProc
+					end
+					object sAchren
+					object sEnid
+					object sDuach
+					object sDespothes
+					object tRebirth
+					object oAchren
+					object sOasis
+					object oOasis
+					object sWorldBoss
+					object sWorldBoss2
+				end 	#-------------- End Scrolls ----------------
+			end 		#-------------- Magic Items ----------------
+
+			category "Rare Spellbooks"
+				object spbDancingFlame
+				object spbFreezingWind
+				object spbEarthSpike
+				object spbHurricane
+				object spbDuachsVengeance
+				object spbEnidsBlessing
+				object spbDespothesWrath
+				object spbElphamesJustice
+				object spbAntiMagicAura
+				object spbIllusionaryFoe
+				object spbSummonDoppelganger
+				object spbSummonDragon
+				object spbImmolationCold
+				object spbImmolationLightning
+				object spbCrawlingCharge
+				object spbAcidCloud
+				object spbEtheralize
+				object spbGreaterIdentify
+				object spbGustOfWind
+				object spbUnlock
+			end 	#-------------- End Spell Books ----------------
+			category "Swap N Shop" 54033
+				object SNSWeb1
+				object SNSWeb2
+				object SNSWeb3
+				object SNSSkull
+				object SNSAltar
+				object SNSTorch
+				object SNSFountain
+				object SNSMushroom
+				object SNSSittingRock
+				object SNSStool
+				object SNSChair
+				object SNSStoneBench
+				object SNSBasket
+				object SNSDresser
+				object SNSStorage
+				object SNSCloset
+				object SNSBigStrongBox
+				object SNSChristmasTree
+				object SNSSnowman
+				object SNSTrophy
+				object TempleGuardian
+			end 	#-------------- End SNS ----------------------
+		end 		#-------------- End Inventory ----------------
+	end 			#-------------- End Base Shop ----------------
+
+    base carryable
+		weight 0
+	end
+
+	base described
+		text "A Game Master's Toolbox.\n\nYou should NOT have this.\n\n"
+	end
+end
 
 #---------------Test Shop
 object AnewShop of Shop
@@ -2062,6 +3402,11 @@ object AnewShop of Shop
 			mana
 			category "New Stuffs" 94012
 				object TravelerToolbox
+				object TwoHandSaber
+				object SkullHood
+				object CastleHelm 
+				object AquaHelm 
+				object PharoahHelm
 				category "Skills/Spells" 84500
 					object skbSorceryVI
 					object skbThaumaturgyVI

@@ -134,7 +134,7 @@ object Bee of WaspDrone
 		maxDamage 17
 
 		dexterity 5
-		endurance 10
+		endurance 7
 		intelligence 3
 
 		#weak to fire damage
@@ -171,7 +171,7 @@ object Puppy of BaseDingo
 		maxDamage 19
 
 		dexterity 7
-		endurance 9
+		endurance 7
 		intelligence 4
 
 		# do normal damage by default

@@ -2114,3 +2114,41 @@ object DriftwoodClub of Club
 		WoodBlock
 	end
 end
+
+
+object TwoHandSaber of TwoHandSword
+	properties
+		name "Two-Handed Saber"
+		value 185
+		view 15010
+		health 210
+		color 104
+		strength 1
+
+		# weak to rust
+		affect 11 3 0 -1
+	end
+
+	base carryable
+		weight 27.0
+	end
+
+	base described
+		text "You see a poorly crafted two-handed sword made of iron."
+		shopText "This iron two-handed sword is fairly inexpensive and may give your opponent a severe case of lock-jaw."
+	end
+
+	base weapon
+		minDamage 16
+		maxDamage 32
+	end
+
+	components
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+		IronBar
+	end
+end

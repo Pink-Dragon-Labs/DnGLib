@@ -1,12 +1,13 @@
-# level 1
+# level 1 created by Joe on 02/25/2020 #
 object RustyThrowingDagger of ThrowingDagger
 	properties
+		special
 		name "Rusty Throwing Dagger"
 		value 100
 		health 140
 		color 104
 		strength 2
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -32,12 +33,13 @@ end
 
 object RustyClaw of Claw
 	properties
+		special
 		name "Rusty Claw"
 		value 100
 		health 140
 		color 104
 		strength 1
-
+		level 1		
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -63,12 +65,13 @@ end
 
 object RustyDagger of Dagger
 	properties
+		special
 		name "Rusty Dagger"
 		value 100
 		health 140
 		color 104
 		strength 1
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -94,12 +97,13 @@ end
 
 object RustyShortSword of ShortSword
 	properties
+		special
 		name "Rusty Short Sword"
 		value 100
 		health 160
 		color 104
 		strength 2
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -115,7 +119,7 @@ object RustyShortSword of ShortSword
 
 	base weapon
 		minDamage 12
-		maxDamage 18
+		maxDamage 17
 	end
 
 	components
@@ -126,12 +130,13 @@ end
 
 object RustyLongSword of LongSword
 	properties
+		special
 		name "Rusty Long Sword"
 		health 170
 		value 100
 		color 104
 		strength 2
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -142,7 +147,7 @@ object RustyLongSword of LongSword
 
 	base weapon
 		minDamage 15
-		maxDamage 24
+		maxDamage 20
 	end
 
 	base described
@@ -159,12 +164,13 @@ end
 
 object RustyBroadSword of BroadSword
 	properties
+		special
 		name "Rusty Broad Sword"
 		health 180
 		value 100
 		color 104
 		strength 2
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -174,8 +180,8 @@ object RustyBroadSword of BroadSword
 	end
 
 	base weapon
-		minDamage 20
-		maxDamage 25
+		minDamage 17
+		maxDamage 22
 	end
 
 	base described
@@ -193,12 +199,13 @@ end
 
 object RottenClub of Club
 	properties
+		special
 		name "Rotten Cudgel"
 		value 100
 		health 190
 		color 73
 		strength 2
-
+		level 1
 		# clear fire immunity
 		caffect 1
 
@@ -215,7 +222,7 @@ object RottenClub of Club
 
 	base weapon
 		minDamage 22
-		maxDamage 32
+		maxDamage 27
 	end
 
 	base described
@@ -233,12 +240,13 @@ end
 
 object RustyMace of Mace
 	properties
+		special
 		name "Rusty Mace"
 		value 100
 		health 200
 		color 104
 		strength 2
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -248,7 +256,7 @@ object RustyMace of Mace
 	end
 
 	base weapon
-		minDamage 20
+		minDamage 26
 		maxDamage 30
 	end
 
@@ -268,12 +276,13 @@ end
 
 object RustyTwoHandSword of TwoHandSword
 	properties
+		special
 		name "Rusty Two-Handed Sword"
 		value 100
 		health 210
 		color 104
 		strength 2
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -288,8 +297,8 @@ object RustyTwoHandSword of TwoHandSword
 	end
 
 	base weapon
-		minDamage 21
-		maxDamage 33
+		minDamage 28
+		maxDamage 31
 	end
 
 	components
@@ -304,12 +313,13 @@ end
 
 object RustyAxe of Axe
 	properties
+		special
 		name "Rusty Axe"
 		value 100
 		health 220
 		color 104
 		strength 2
-
+		level 1
 		# weak to rust
 		affect 11 3 0 -1
 	end
@@ -320,7 +330,7 @@ object RustyAxe of Axe
 
 	base weapon
 		minDamage 20
-		maxDamage 40
+		maxDamage 30
 	end
 
 	base described
@@ -343,12 +353,13 @@ end
 
 object RottenMaul of Maul
 	properties
+		special
 		name "Rotten Maul"
 		value 100
 		health 230
 		color 73
 		strength 2
-
+		level 1
 		# clear fire immunity
 		caffect 1
 
@@ -365,7 +376,7 @@ object RottenMaul of Maul
 
 	base weapon
 		minDamage 22
-		maxDamage 42
+		maxDamage 30
 	end
 
 	base described
@@ -384,10 +395,12 @@ object RottenMaul of Maul
 		WoodBlock
 	end
 end
-# level 25
+# level 20
 object TarnishedThrowingDagger of ThrowingDagger
 	properties
+		special
 		name "Tarnished Throwing Dagger"
+		level 20
 	end
 
 	base described
@@ -396,8 +409,8 @@ object TarnishedThrowingDagger of ThrowingDagger
 	end
 
 	base weapon
-		minDamage 8
-		maxDamage 16
+		minDamage 12
+		maxDamage 18
 	end
 
 	components
@@ -407,6 +420,7 @@ end
 
 object TarnishedClaw of Claw
 	properties
+		special
 		name "Tarnished Claw"
 	end
 
@@ -416,8 +430,8 @@ object TarnishedClaw of Claw
 	end
 
 	base weapon
-		minDamage 10
-		maxDamage 16
+		minDamage 12
+		maxDamage 18
 	end
 
 	components
@@ -427,7 +441,9 @@ end
 
 object TarnishedDagger of Dagger
 	properties
+		special
 		name "Steel Dagger"
+		level 20
 	end
 
 	base described
@@ -436,8 +452,8 @@ object TarnishedDagger of Dagger
 	end
 
 	base weapon
-		minDamage 6
-		maxDamage 12
+		minDamage 12
+		maxDamage 17
 	end
 
 	components
@@ -447,7 +463,9 @@ end
 
 object TarnishedShortSword of ShortSword
 	properties
+		special
 		name "Steel Short Sword"
+		level 20
 	end
 
 	base described
@@ -456,8 +474,8 @@ object TarnishedShortSword of ShortSword
 	end
 
 	base weapon
-		minDamage 10
-		maxDamage 15
+		minDamage 16
+		maxDamage 20
 	end
 
 	components
@@ -467,7 +485,9 @@ end
 
 object TarnishedLongSword of LongSword
 	properties
+		special
 		name "Tarnished Long Sword"
+		level 20
 	end
 
 	base described
@@ -476,8 +496,8 @@ object TarnishedLongSword of LongSword
 	end
 
 	base weapon
-		minDamage 15
-		maxDamage 25
+		minDamage 18
+		maxDamage 23
 	end
 
 	components
@@ -488,7 +508,9 @@ end
 
 object TarnishedBroadSword of BroadSword
 	properties
+		special
 		name "Tarnished Broad Sword"
+		level 20
 	end
 
 	base described
@@ -498,7 +520,7 @@ object TarnishedBroadSword of BroadSword
 
 	base weapon
 		minDamage 17
-		maxDamage 27
+		maxDamage 25
 	end
 
 	components
@@ -510,8 +532,10 @@ end
 
 object TarnishedClub of Club
 	properties
+		special
 		name "Tarnished Club"
 		color 99
+		level 20
 	end
 
 	base described
@@ -520,7 +544,7 @@ object TarnishedClub of Club
 	end
 
 	base weapon
-		minDamage 16
+		minDamage 19
 		maxDamage 26
 	end
 
@@ -534,7 +558,9 @@ end
 
 object TarnishedMace of Mace
 	properties
+		special
 		name "Tarnished Mace"
+		level 20
 	end
 
 	base described
@@ -558,7 +584,9 @@ end
 
 object TarnishedTwoHandSword of TwoHandSword
 	properties
+		special
 		name "Tarnished Two-Handed Sword"
+		level 20
 	end
 
 	base described
@@ -567,8 +595,8 @@ object TarnishedTwoHandSword of TwoHandSword
 	end
 
 	base weapon
-		minDamage 17
-		maxDamage 34
+		minDamage 24
+		maxDamage 31
 	end
 
 	components
@@ -581,7 +609,9 @@ end
 
 object TarnishedAxe of Axe
 	properties
+		special
 		name "Tarnished Axe"
+		level 20
 	end
 
 	base described
@@ -590,8 +620,8 @@ object TarnishedAxe of Axe
 	end
 
 	base weapon
-		minDamage 19
-		maxDamage 38
+		minDamage 22
+		maxDamage 29
 	end
 
 	components
@@ -606,8 +636,10 @@ end
 
 object TarnishedMaul of Maul
 	properties
+		special
 		name "Tarnished Maul"
 		color 99
+		level 20
 	end
 
 	base described
@@ -625,19 +657,21 @@ object TarnishedMaul of Maul
 	end
 
 	base weapon
-		minDamage 21
-		maxDamage 42
+		minDamage 25
+		maxDamage 30
 	end
 end
 
-# level 50
+# level 40
 object DentedThrowingDagger of ThrowingDagger
 	properties
+		special
 		name "Dented Throwing Dagger"
 		value 200
 		health 190
 		color 100
 		strength 2
+		level 40
 	end
 
 	base described
@@ -654,18 +688,20 @@ object DentedThrowingDagger of ThrowingDagger
 	end
 
 	base weapon
-		minDamage 18
+		minDamage 24
 		maxDamage 28
 	end
 end
 
 object DentedClaw of Claw
 	properties
+		special
 		name "Dented Claw"
 		value 250
 		health 220
 		color 100
 		strength 2
+		level 40
 	end
 
 	base described
@@ -682,18 +718,20 @@ object DentedClaw of Claw
 	end
 
 	base weapon
-		minDamage 19
-		maxDamage 29
+		minDamage 24
+		maxDamage 28
 	end
 end
 
 object DentedDagger of Dagger
 	properties
+		special
 		name "Dented Dagger"
 		value 300
 		health 220
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -701,7 +739,7 @@ object DentedDagger of Dagger
 	end
 
 	base weapon
-		minDamage 17
+		minDamage 23
 		maxDamage 27
 	end
 
@@ -717,11 +755,13 @@ end
 
 object DentedShortSword of ShortSword
 	properties
+		special
 		name "DentedShort Sword"
 		value 350
 		health 265
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -729,7 +769,7 @@ object DentedShortSword of ShortSword
 	end
 
 	base weapon
-		minDamage 20
+		minDamage 21
 		maxDamage 25
 	end
 
@@ -745,11 +785,13 @@ end
 
 object DentedLongSword of LongSword
 	properties
+		special
 		name "Dented Long Sword"
 		health 290
 		value 700
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -758,7 +800,7 @@ object DentedLongSword of LongSword
 
 	base weapon
 		minDamage 25
-		maxDamage 30
+		maxDamage 28
 	end
 
 	components
@@ -774,11 +816,13 @@ end
 
 object DentedBroadSword of BroadSword
 	properties
+		special
 		name "Dented Broad Sword"
 		value 1000
 		health 315
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -787,7 +831,7 @@ object DentedBroadSword of BroadSword
 
 	base weapon
 		minDamage 27
-		maxDamage 32
+		maxDamage 30
 	end
 
 	components
@@ -804,11 +848,13 @@ end
 
 object DentedClub of Club
 	properties
+		special
 		name "Dented Club"
 		value 1200
 		health 340
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -817,7 +863,7 @@ object DentedClub of Club
 
 	base weapon
 		minDamage 30
-		maxDamage 50
+		maxDamage 35
 	end
 
 	components
@@ -835,11 +881,13 @@ end
 
 object DentedMace of Mace
 	properties
+		special
 		name "Dented Mace"
 		value 1500
 		health 365
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -847,8 +895,8 @@ object DentedMace of Mace
 	end
 
 	base weapon
-		minDamage 28
-		maxDamage 48
+		minDamage 29
+		maxDamage 34
 	end
 
 	components
@@ -867,11 +915,13 @@ end
 
 object DentedTwoHandSword of TwoHandSword
 	properties
+		special
 		name "Dented Two-Handed Sword"
 		value 1800
 		health 390
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -880,7 +930,7 @@ object DentedTwoHandSword of TwoHandSword
 
 	base weapon
 		minDamage 29
-		maxDamage 49
+		maxDamage 36
 	end
 
 	components
@@ -899,11 +949,13 @@ end
 
 object DentedAxe of Axe
 	properties
+		special
 		name "Dented Axe"
 		value 2000
 		health 415
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -911,8 +963,8 @@ object DentedAxe of Axe
 	end
 
 	base weapon
-		minDamage 26
-		maxDamage 46
+		minDamage 28
+		maxDamage 33
 	end
 
 	components
@@ -932,11 +984,13 @@ end
 
 object DentedMaul of Maul
 	properties
+		special
 		name "Dented Maul"
 		value 2400
 		health 440
 		color 100
 		strength 2
+		level 40
 	end
 
 	base carryable
@@ -944,8 +998,8 @@ object DentedMaul of Maul
 	end
 
 	base weapon
-		minDamage 24
-		maxDamage 44
+		minDamage 32
+		maxDamage 37
 	end
 
 	components
@@ -963,14 +1017,16 @@ object DentedMaul of Maul
 		shopText "Here is a fine dented tempered-steel maul."
 	end
 end
-#level 75
+#level 60
 object ShinyThrowingDagger of ThrowingDagger
 	properties
+		special
 		name "Shiny Throwing Dagger"
 		value 700
 		health 240
 		color 83
 		strength 3
+		level 60
 	end
 
 	base described
@@ -988,17 +1044,19 @@ object ShinyThrowingDagger of ThrowingDagger
 
 	base weapon
 		minDamage 30
-		maxDamage 40
+		maxDamage 35
 	end
 end
 
 object ShinyClaw of Claw
 	properties
+		special
 		name "Shiny Claw"
 		value 900
 		health 250
 		color 83
 		strength 3
+		level 60
 	end
 
 	base described
@@ -1015,18 +1073,20 @@ object ShinyClaw of Claw
 	end
 
 	base weapon
-		minDamage 29
-		maxDamage 39
+		minDamage 30
+		maxDamage 35
 	end
 end
 
 object ShinyDagger of Dagger
 	properties
+		special
 		name "Shiny Dagger"
 		value 1150
 		health 260
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1034,8 +1094,8 @@ object ShinyDagger of Dagger
 	end
 
 	base weapon
-		minDamage 28
-		maxDamage 38
+		minDamage 31
+		maxDamage 36
 	end
 
 	components
@@ -1050,11 +1110,13 @@ end
 
 object ShinyShortSword of ShortSword
 	properties
+		special
 		name "Shiny Short Sword"
 		value 1500
 		health 310
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1062,8 +1124,8 @@ object ShinyShortSword of ShortSword
 	end
 
 	base weapon
-		minDamage 31
-		maxDamage 41
+		minDamage 32
+		maxDamage 37
 	end
 
 	components
@@ -1078,11 +1140,13 @@ end
 
 object ShinyLongSword of LongSword
 	properties
+		special
 		name "ShinyLong Sword"
 		value 2000
 		health 340
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1091,7 +1155,7 @@ object ShinyLongSword of LongSword
 
 	base weapon
 		minDamage 33
-		maxDamage 43
+		maxDamage 38
 	end
 
 	components
@@ -1106,11 +1170,13 @@ end
 
 object ShinyBroadSword of BroadSword
 	properties
+		special
 		name "Shiny Broad Sword"
 		value 2500
 		health 370
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1119,7 +1185,7 @@ object ShinyBroadSword of BroadSword
 
 	base weapon
 		minDamage 35
-		maxDamage 45
+		maxDamage 40
 	end
 
 	components
@@ -1135,11 +1201,13 @@ end
 
 object  ShinyClub of Club
 	properties
+		special
 		name "Shiny Club"
 		value 2900
 		health 400
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1147,8 +1215,8 @@ object  ShinyClub of Club
 	end
 
 	base weapon
-		minDamage 40
-		maxDamage 60
+		minDamage 38
+		maxDamage 42
 	end
 
 	components
@@ -1165,11 +1233,13 @@ end
 
 object ShinyMace of Mace
 	properties
+		special
 		name "Shiny Mace"
 		value 3300
 		health 430
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1178,7 +1248,7 @@ object ShinyMace of Mace
 
 	base weapon
 		minDamage 38
-		maxDamage 58
+		maxDamage 43
 	end
 
 	components
@@ -1195,11 +1265,13 @@ end
 
 object ShinyTwoHandSword of TwoHandSword
 	properties
+		special
 		name "Shiny Two-Handed Sword"
 		value 4000
 		health 460
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1208,7 +1280,7 @@ object ShinyTwoHandSword of TwoHandSword
 
 	base weapon
 		minDamage 39
-		maxDamage 59
+		maxDamage 45
 	end
 
 	components
@@ -1225,11 +1297,13 @@ end
 
 object ShinyAxe of Axe
 	properties
+		special
 		name "Shiny Axe"
 		value 5000
 		health 490
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1238,7 +1312,7 @@ object ShinyAxe of Axe
 
 	base weapon
 		minDamage 37
-		maxDamage 57
+		maxDamage 44
 	end
 
 	components
@@ -1257,11 +1331,13 @@ end
 
 object ShinyMaul of Maul
 	properties
+		special
 		name "Shiny Maul"
 		value 6000
 		health 520
 		color 83
 		strength 3
+		level 60
 	end
 
 	base carryable
@@ -1269,8 +1345,8 @@ object ShinyMaul of Maul
 	end
 
 	base weapon
-		minDamage 41
-		maxDamage 61
+		minDamage 36
+		maxDamage 43
 	end
 
 	components
@@ -1285,14 +1361,16 @@ object ShinyMaul of Maul
 		shopText  "This shiny maul is much quicker in combat than steel mauls.  Easier to carry, too."
 	end
 end
-# level 100
+# level 80
 object FineThrowingDagger of ThrowingDagger
 	properties
+		special
 		name "Fine Throwing Dagger"
 		value 1200
 		health 280
 		color 98
 		strength 4
+		level 80
 	end
 
 	base described
@@ -1309,18 +1387,20 @@ object FineThrowingDagger of ThrowingDagger
 	end
 
 	base weapon
-		minDamage 50
-		maxDamage 55
+		minDamage 40
+		maxDamage 45
 	end
 end
 
 object FineClaw of Claw
 	properties
+		special
 		name "Fine Claw"
 		value 1500
 		health 320
 		color 98
 		strength 4
+		level 80
 	end
 
 	base described
@@ -1337,18 +1417,20 @@ object FineClaw of Claw
 	end
 
 	base weapon
-		minDamage 48
-		maxDamage 53
+		minDamage 40
+		maxDamage 45
 	end
 end
 
-object Fine Dagger of Dagger
+object FineDagger of Dagger
 	properties
+		special
 		name "Fine Dagger"
 		value 2000
 		health 340
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1356,8 +1438,8 @@ object Fine Dagger of Dagger
 	end
 
 	base weapon
-		minDamage 49
-		maxDamage 54
+		minDamage 41
+		maxDamage 46
 	end
 
 	components
@@ -1372,11 +1454,13 @@ end
 
 object FineShortSword of ShortSword
 	properties
+		special
 		name "Fine Short Sword"
 		value 4000
 		health 400
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1389,8 +1473,8 @@ object FineShortSword of ShortSword
 	end
 
 	base weapon
-		minDamage 51
-		maxDamage 61
+		minDamage 46
+		maxDamage 50
 	end
 
 	base described
@@ -1401,11 +1485,13 @@ end
 
 object FineLongSword of LongSword
 	properties
+		special
 		name "Fine Long Sword"
 		value 6000
 		health 440
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1413,8 +1499,8 @@ object FineLongSword of LongSword
 	end
 
 	base weapon
-		minDamage 52
-		maxDamage 62
+		minDamage 47
+		maxDamage 52
 	end
 
 	components
@@ -1431,11 +1517,13 @@ end
 
 object FineBroadSword of BroadSword
 	properties
+		special
 		name "Fine Broad Sword"
 		value 9000
 		health 480
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1443,8 +1531,8 @@ object FineBroadSword of BroadSword
 	end
 
 	base weapon
-		minDamage 55
-		maxDamage 65
+		minDamage 48
+		maxDamage 55
 	end
 
 	components
@@ -1462,11 +1550,13 @@ end
 
 object FineClub of Club
 	properties
+		special
 		name "Fine Club"
 		value 11000
 		health 520
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1475,7 +1565,7 @@ object FineClub of Club
 
 	base weapon
 		minDamage 56
-		maxDamage 66
+		maxDamage 62
 	end
 
 	components
@@ -1494,11 +1584,13 @@ end
 
 object FineMace of Mace
 	properties
+		special
 		name "Fine Mace"
 		value 13000
 		health 560
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1507,7 +1599,7 @@ object FineMace of Mace
 
 	base weapon
 		minDamage 57
-		maxDamage 67
+		maxDamage 63
 	end
 
 	components
@@ -1527,11 +1619,13 @@ end
 
 object FineTwoHandSword of TwoHandSword
 	properties
+		special
 		name "Fine Two-Handed Sword"
 		value 15000
 		health 600
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1540,7 +1634,7 @@ object FineTwoHandSword of TwoHandSword
 
 	base weapon
 		minDamage 61
-		maxDamage 71
+		maxDamage 65
 	end
 
 	components
@@ -1560,11 +1654,13 @@ end
 
 object FineAxe of Axe
 	properties
+		special
 		name "Fine Axe"
 		value 18000
 		health 660
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1573,7 +1669,7 @@ object FineAxe of Axe
 
 	base weapon
 		minDamage 62
-		maxDamage 74
+		maxDamage 66
 	end
 
 	components
@@ -1595,11 +1691,13 @@ end
 
 object FineMaul of Maul
 	properties
+		special
 		name "Fine Maul"
 		value 20000
 		health 700
 		color 98
 		strength 4
+		level 80
 	end
 
 	base carryable
@@ -1608,7 +1706,7 @@ object FineMaul of Maul
 
 	base weapon
 		minDamage 65
-		maxDamage 78
+		maxDamage 68
 	end
 
 	components
@@ -1628,14 +1726,16 @@ object FineMaul of Maul
 	end
 end
 
-# level 125
+# level 100
 object PristineThrowingDagger of ThrowingDagger
 	properties
+		special
 		name "Pristine Throwing Dagger"
 		value 1800
 		health 380
 		color 54
 		strength 5
+		level 100
 	end
 
 	base described
@@ -1659,11 +1759,13 @@ end
 
 object PristineClaw of Claw
 	properties
+		special
 		name "Pristine Claw"
 		value 2200
 		health 430
 		color 54
 		strength 5
+		level 100
 	end
 
 	base described
@@ -1680,18 +1782,20 @@ object PristineClaw of Claw
 	end
 
 	base weapon
-		minDamage 51
-		maxDamage 56
+		minDamage 50
+		maxDamage 55
 	end
 end
 
 object PristineDagger of Dagger
 	properties
+		special
 		name "Pristine Dagger"
 		value 2500
 		health 460
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1715,11 +1819,13 @@ end
 
 object PristineShortSword of ShortSword
 	properties
+		special
 		name "Pristine Short Sword"
 		value 6000
 		health 530
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1744,11 +1850,13 @@ end
 
 object PristineLongSword of LongSword
 	properties
+		special
 		name "Pristine Long Sword"
 		value 10000
 		health 580
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1774,11 +1882,13 @@ end
 
 object PristineBroadSword of BroadSword
 	properties
+		special
 		name "Pristine Broad Sword"
 		value 15000
 		health 630
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1787,7 +1897,7 @@ object PristineBroadSword of BroadSword
 
 	base weapon
 		minDamage 55
-		maxDamage 61
+		maxDamage 63
 	end
 
 	components
@@ -1805,11 +1915,13 @@ end
 
 object PristineClub of Club
 	properties
+		special
 		name "Pristine Club"
 		value 18000
 		health 680
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1818,7 +1930,7 @@ object PristineClub of Club
 
 	base weapon
 		minDamage 62
-		maxDamage 82
+		maxDamage 72
 	end
 
 	components
@@ -1837,11 +1949,13 @@ end
 
 object PristineMace of Mace
 	properties
+		special
 		name "Pristine Mace"
 		value 22000
 		health 730
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1850,7 +1964,7 @@ object PristineMace of Mace
 
 	base weapon
 		minDamage 63
-		maxDamage 83
+		maxDamage 73
 	end
 
 	components
@@ -1870,11 +1984,13 @@ end
 
 object PristineTwoHandSword of TwoHandSword
 	properties
+		special
 		name "Pristine Two-Handed Sword"
 		value 26000
 		health 780
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1883,7 +1999,7 @@ object PristineTwoHandSword of TwoHandSword
 
 	base weapon
 		minDamage 65
-		maxDamage 85
+		maxDamage 75
 	end
 
 	components
@@ -1903,11 +2019,13 @@ end
 
 object PristineAxe of Axe
 	properties
+		special
 		name "Pristine Axe"
 		value 28500
 		health 850
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1916,7 +2034,7 @@ object PristineAxe of Axe
 
 	base weapon
 		minDamage 68
-		maxDamage 91
+		maxDamage 78
 	end
 
 	components
@@ -1938,11 +2056,13 @@ end
 
 object PristineMaul of Maul
 	properties
+		special
 		name "Pristine Maul"
 		value 32000
 		health 900
 		color 54
 		strength 5
+		level 100
 	end
 
 	base carryable
@@ -1951,7 +2071,7 @@ object PristineMaul of Maul
 
 	base weapon
 		minDamage 70
-		maxDamage 95
+		maxDamage 80
 	end
 
 	components

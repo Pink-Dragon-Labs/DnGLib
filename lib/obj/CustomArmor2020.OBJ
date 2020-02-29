@@ -2,6 +2,70 @@
 #								#
 #								#
 #								#
+#			New Robe            #
+#              and   			#
+#			  Skirts			#
+#								#
+#								#
+#################################
+object BeginnerRobe of Robe
+	properties
+        special
+		name "Beginner's Robe"
+		value 5
+        color 100
+	end
+
+	base carryable
+		weight 2
+	end
+
+	base described
+		text "You see a beginner's robe."
+		shopText "This beautiful robe will keep you warm no matter how cold it is."
+	end
+end
+
+object BeginnerLongSkirt of LongSkirt
+	properties
+        special
+		name "Beginner's Long Skirt"
+		color 100
+		value 5
+	end
+
+	base carryable
+		weight 1.3
+	end
+
+	base described
+	   text "You see a Beginner's Long Skirt."
+	   shopText "This is the a fine, Fashionable Long Skirt!"
+	end
+end
+
+object BeginnerShortSkirt of ShortSkirt
+	properties
+        special
+		name "Beginner's Short Skirt"
+		color 100
+		value 5
+	end
+
+	base carryable
+		weight 1
+	end
+
+	base described
+		text "You see a Beginner's short skirt."
+		shopText "You never know when miniskirts will come back.  Best to be prepared."
+	end
+end
+
+#################################
+#								#
+#								#
+#								#
 #			New Helmets			#
 #								#
 #								#
@@ -409,7 +473,7 @@ object ClothCowl of Cowl
         special
         name "Tattered Cloth Cowl"
         health 350
-        color -1
+        color 100   # White
         armor 10
 	    armorType 0
     end
@@ -436,7 +500,7 @@ object BaseLeatherCowl of LeatherCowl
         special
         name "Ragged Leather Cowl"
         health 450
-        color -1
+        color 74   # Tan
         armor 10
 	    armorType 1
     end
@@ -459,7 +523,7 @@ object BaseChainCowl of ChainCowl
         special
         name "Rusted Chain Cowl"
         health 500
-        color -1
+        color 99   # Grey
         armor 10
 	    armorType 2
     end
@@ -483,7 +547,7 @@ object PlateCowl of ChainCowl
         special
         name "Dented Plate Cowl"
         health 750
-        color -1
+        color 98   # Black
         armor 10
 	    armorType 3
     end
@@ -821,7 +885,7 @@ object ClothShirt of Shirt
         special
         name "Tattered Cloth Shirt"
         health 350
-        color -1
+        color 100   # White
         armor 20
 	    armorType 0
     end
@@ -848,7 +912,7 @@ object LeatherArmor of LeatherShirt
         special
         name "Ragged Leather Armor"
         health 450
-        color -1
+        color 74   # Tan
         armor 20
 	    armorType 1
     end
@@ -871,7 +935,7 @@ object ChainmailTunic of ChainTunic
         special
         name "Rusty Chainmail Tunic"
         health 600
-        color -1
+        color 99   # Grey
         armor 20
 	    armorType 2
     end
@@ -895,7 +959,7 @@ object ChestPlate of PlateTunic
         special
         name "Dented Iron Chest Plate"
         health 750
-        color -1
+        color 98   # Black
         armor 20
 	    armorType 3
     end
@@ -1232,7 +1296,7 @@ object ClothBands of Wristband
         special
         name "Tattered Cloth Wristbands"
         health 350
-        color -1
+        color 100   # White
         armor 10
 	    armorType 0
     end
@@ -1259,7 +1323,7 @@ object LeatherBands of Wristband
         special
         name "Ragged Leather Wristbands"
         health 450
-        color -1
+        color 74   # Tan
         armor 10
 	    armorType 1
     end
@@ -1282,7 +1346,7 @@ object ChainBands of Wristband
         special
         name "Rusty Chainmail Wristbands"
         health 600
-        color -1
+        color 99   # Grey
         armor 10
 	    armorType 2
     end
@@ -1306,7 +1370,7 @@ object PlateBands of Wristband
         special
         name "Dented Plate Wristbands"
         health 750
-        color -1
+        color 98   # Black
         armor 10
 	armorType 3
     end
@@ -1643,7 +1707,7 @@ object ClothLeggings of Pants
         special
         name "Tattered Cloth Leggings"
         health 350
-        color -1
+        color 100   # White
         armor 20
 	    armorType 0			
     end
@@ -1670,7 +1734,7 @@ object LeatherLeggings of LeatherPants
         special
         name "Ragged Leather Leggings"
         health 450
-        color -1
+        color 74   # Tan
         armor 20
 	    armorType 1
     end
@@ -1693,7 +1757,7 @@ object ChainLeggings of ChainPants
         special
         name "Rusty Chainmail Leggings"
         health 600
-        color -1
+        color 99   # Grey
         armor 20
 	armorType 2
     end
@@ -1717,7 +1781,7 @@ object PlateLeggings of PlatePants
         special
         name "Dented Plate Leggings"
         health 750
-        color -1
+        color 98   # Black
         armor 20
 	armorType 3
     end
@@ -2054,7 +2118,7 @@ object ClothLowBoots of LowBoots
         special
         name "Tattered Cloth Low Boots"
         health 350
-        color -1
+        color 100   # White
         armor 10
 	    armorType 0 
     end
@@ -2082,7 +2146,7 @@ object ClothHighBoots of HighBoots
         special
         name "Tattered Cloth High Boots"
         health 350
-        color -1
+        color 100   # White
         armor 10
 	    armorType 0
     end
@@ -2110,7 +2174,7 @@ object RaggedLeatherLowBoots of LowBoots
         special
         name "Ragged Leather Low Boots"
         health 450
-        color -1
+        color 74   # Tan
         armor 10
 	    armorType 1
     end
@@ -2134,7 +2198,7 @@ object RaggedLeatherHighBoots of HighBoots
         special
         name "Ragged Leather High Boots"
         health 450
-        color -1
+        color 74   # Tan
         armor 10
 	    armorType 1
     end
@@ -2158,7 +2222,7 @@ object ChainLowBoots of LowBoots
         special
         name "Rusty Chainmail Low Boots"
         health 600
-        color -1
+        color 99   # Grey
         armor 10
 	    armorType 2
     end
@@ -2183,7 +2247,7 @@ object ChainHighBoots of HighBoots
         special
         name "Rusty Chainmail High Boots"
         health 600
-        color -1
+        color 99   # Grey
         armor 10
 	    armorType 2
     end
@@ -2208,7 +2272,7 @@ object PlateHighBoots of HighBoots
         special
         name "Dented Plate High Boots"
         health 750
-        color -1
+        color 98   # Black
         armor 10
         armorType 3
     end
@@ -2234,7 +2298,7 @@ object PlateLowBoots of LowBoots
         special
         name "Dented Plate Low Boots"
         health 750
-        color -1
+        color 98   # Black
         armor 10
         armorType 3
     end

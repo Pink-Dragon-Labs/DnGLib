@@ -176,7 +176,7 @@ object LongSword of Weapon
 		minDamage 9
 		maxDamage 18
 		hands 1
-		range 3
+		range 2
 		damageType 1
 	end
 
@@ -235,7 +235,7 @@ object Club of Weapon
 		minDamage 12
 		maxDamage 25
 		hands 2
-		range 4
+		range 3
 		damageType 2
 	end
 
@@ -265,7 +265,7 @@ object Mace of Weapon
 		minDamage 10
 		maxDamage 20
 		hands 2
-		range 4
+		range 3
 		damageType 2
 	end
 
@@ -325,7 +325,7 @@ object Axe of Weapon
 		minDamage 22
 		maxDamage 45
 		hands 2
-		range 4
+		range 3
 		damageType 1
 	end
 
